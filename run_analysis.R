@@ -42,8 +42,7 @@ run_analysis <- function(){
   cleaned_data <- cbind(join_subject, join_label, join_data)
   write.table(cleaned_data, "merged_cleaned_data.txt")
   
-  # Step 5. Creates a 2nd, independent tidy data set with the average of each variable for each activity and each subject.
-  
+  # Step 5. Creates a 2nd, independent tidy data set with the average of each variable for each activity and each subject.  
   unique_subjects = unique(join_subject)[,1]
   num_subjects = length(unique(join_subject)[,1])
   num_activities = length(activities[,1])
