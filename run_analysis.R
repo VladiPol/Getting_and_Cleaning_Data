@@ -1,7 +1,11 @@
 run_analysis <- function(){  
   
-  # set working directory
-  setwd('D:\\Archiv\\Vladimir\\projekt\\course\\coursera\\Getting_and_Cleaning_Data\\Project')
+  # ############################################################################################
+  # 1. Please set working directory to the run_analysis.R script first
+  # 2. In this folder you shold create the folder UCI HAR Dataset and 
+  #    unzip the UCI HAR Dataset.zip file
+  # ############################################################################################
+  # setwd('D:\\Archiv\\Vladimir\\projekt\\course\\coursera\\Getting_and_Cleaning_Data\\Project')
   
   # Step 1. Merges the training and the test sets to create one data set.
   # load train data
